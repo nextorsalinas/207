@@ -76,7 +76,7 @@ efectividad = (redimidos / total) if total > 0 else 0
 c1, c2, c3, c4 = st.columns([1, 1, 1, 2])
 
 with c1:
-    st.metric("Total Generados", f"{total:,}")
+    st.metric("Generados 2025", f"{total:,}")
 with c2:
     st.metric("Redimidos", f"{redimidos:,}")
 with c3:
